@@ -1,0 +1,72 @@
+/* Estilos del cuerpo */
+body {
+    background-color: rgb(248, 238, 161);
+    line-height: 1.5; /* El espacio entre las líneas */
+}
+
+/* Estilos de la barra de navegación */
+ul.navbar {
+    width: 190px; /* El ancho de la barra */
+    list-style-type: none; /* Quita esos puntitos feos */
+    margin: 0; /* Quita el espacio alrededor */
+    padding: 0; /* Quita el espacio adentro */
+}
+
+/* Estilos de cada botón en la barra */
+ul.navbar li {
+    display: block; /* Cada botón en su propia línea */
+    background-color: darkkhaki; /* Son de color beige */
+    padding: 1em 0.2em; /* Un poco de espacio adentro */
+    border-right: 20px solid black; /* Una línea negra a la derecha */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0.6em; /* Un poquito de espacio afuera */
+}
+
+/* Estilos de los enlaces en los botones */
+ul.navbar li a {
+    display: block; /* Los enlaces llenan todo el botón */
+    text-decoration: none; /* No queremos cosas subrayadas */
+    border-radius: 2em; /* Un poquito redondeados */
+}
+
+/* Posicionamiento absoluto de la barra */
+ul.navbar {
+    position: absolute; /* Se queda fijo en su lugar */
+}
+
+/* Estilos de Samuelito */
+.samuelito {
+    margin: 5px 240px; /* Un poquito de espacio entre él y los demás */
+}
+
+/* Estilos de los títulos */
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /* Letra bonita */
+    font-size: 40px; /* Grande para que se vea bien */
+    line-height: 1.5; /* Que no queden muy apretados */
+}
+
+/* Estilos de los subtítulos */
+h2 {
+    color: blueviolet; /* Un poquito de color */
+}
+
+/* Estilos de los enlaces */
+a {
+    padding: 10px 20px; /* Espacio adentro */
+    margin: 10px; /* Espacio afuera */
+    background-color: #007bff; /* Un bonito azul */
+    color: #fff; /* El texto en blanco */
+    border-radius: 5px; /* Borde redondeado */
+    text-decoration: none; /* No queremos subrayados */
+    transition: transform 0.3s ease; /* Para que se vea bonito cuando le pases el mouse */
+    display: flex; /* Los enlaces en línea */
+    flex-wrap: wrap; /* Si hay muchos, que se vayan abajo */
+    justify-content: center; /* Que estén en el centro */
+    font-family: 'Times New Roman', serif; /* Una letra clásica */
+}
+
+/* Estilos de los párrafos */
+p {
+    text-align: center; /* Que el texto esté en el medio */
+}

@@ -1,0 +1,259 @@
+body {
+    background-color: rgb(248, 238, 161);
+    font-family: Arial, sans-serif; /* Establece una fuente predeterminada */
+}
+
+header {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    font-family: Georgia, serif;
+    padding: 10px;
+    font-size: 60px;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Georgia, serif;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+    top: 100%;
+}
+
+.imagen-1 {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 146%; /* Coloca el borde superior de la imagen en el centro vertical */
+    left: 50%; /* Coloca el borde izquierdo de la imagen en el centro horizontal */
+    transform: translate(-50%, -50%); /* Mueve la imagen hacia arriba y hacia la izquierda la mitad de su propio tamaño */
+    width: 375px; /* Tamaño de la imagen */
+    border-radius: 10px; /* Redondea los bordes de la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+
+    margin-top: 360px;
+}
+
+.imagen-2 {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 230%;
+    left: 50%; /* Coloca el borde izquierdo de la imagen en el centro horizontal */
+    transform: translate(-50%, -50%); /* Mueve la imagen hacia arriba y hacia la izquierda la mitad de su propio tamaño */
+    width: 790px; /* Tamaño de la imagen */
+    border-radius: 10px; /* Redondea los bordes de la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+    
+    margin-top: 550px;
+}
+
+.imagen-3 {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 345%; /* Coloca el borde superior de la imagen en el centro vertical */
+    left: 50%; /* Coloca el borde izquierdo de la imagen en el centro horizontal */
+    transform: translate(-50%, -50%); /* Mueve la imagen hacia arriba y hacia la izquierda la mitad de su propio tamaño */
+    width: 790px; /* Tamaño de la imagen */
+    border-radius: 10px; /* Redondea los bordes de la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+
+    margin-top: 700px;
+}
+
+a {
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    margin: 10px; /* Espaciado externo de los enlaces */
+    background-color: #007bff; /* Color de fondo de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    border-radius: 5px; /* Borde redondeado de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    transition: transform 0.3s ease; /* Transición suave del efecto de escala */
+    display: flex; /* Utilizamos flexbox para alinear los enlaces */
+    flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en varias líneas */
+    justify-content: center; /* Centramos el texto horizontalmente dentro del botón */
+    font-family: 'Times New Roman', serif; /* Fuente de los párrafos */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu {
+    position: fixed;
+    top: 0; /* Fijar el menú en la parte superior */
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px 0;
+    list-style-type: none;
+    z-index: 900;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Estilos específicos para los iconos */
+img {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.comer {
+    position: center ;
+    top: 45px;
+    left: 20px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 2975px;
+
+    margin-left: 490px; /* Mueve el elemento 20px hacia la derecha */
+}
+.telefono {
+    position: center ;
+    top: 130px;
+    left: 20px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 2980px;
+
+    margin-left: 494px; /* Mueve el elemento 20px hacia la derecha */
+}
+.correo {
+    position: center ;
+    top: 165px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 2985px;
+
+    margin-left: 450px; /* Mueve el elemento 20px hacia la derecha */
+}
+.catalogo {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:910px; /* Mueve el elemento 20px hacia la derecha */
+}
+.info {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 142px;
+
+    margin-left:720px; /* Mueve el elemento 20px hacia la derecha */
+}
+
+.compra {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 142px;
+
+    margin-left:510px; /* Mueve el elemento 20px hacia la derecha */
+}
+.horario {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:390px; /* Mueve el elemento 20px hacia la derecha */
+}
+.prese {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:230px; /* Mueve el elemento 20px hacia la derecha */
+}
+.visio {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:110px; /* Mueve el elemento 20px hacia la derecha */
+}
+.misio {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:-15px; /* Mueve el elemento 20px hacia la derecha */
+}
+.usuario {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 140px;
+
+    margin-left:1050px; /* Mueve el elemento 20px hacia la derecha */
+}

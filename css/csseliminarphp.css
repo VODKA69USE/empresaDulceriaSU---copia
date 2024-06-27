@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+#Encabezado {
+  background-color: #556EE6;
+  color: white;
+  padding: 20px 0;
+}
+
+#Encabezado h1 {
+  margin: 0;
+}
+
+/* Estilos para la sección principal */
+#Section {
+  margin: 20px auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#Section h1 {
+  margin-top: 0;
+}
+
+#Section p {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.box {
+  text-align: center;
+}
+
+.box input[type="text"],
+.box input[type="submit"] {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  max-width: 300px;
+}
+
+.box input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el botón de regresar */
+.boton-regresar {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.boton-regresar:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el pie de página */
+#Footer {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}

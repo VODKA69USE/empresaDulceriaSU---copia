@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(248, 238, 161);
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+p {
+ text-align: center;
+ font-family: 'Times New Roman', serif; /* Fuente de los párrafos */
+
+
+}
+a {
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    margin: 10px; /* Espaciado externo de los enlaces */
+    background-color: #007bff; /* Color de fondo de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    border-radius: 5px; /* Borde redondeado de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    transition: transform 0.3s ease; /* Transición suave del efecto de escala */
+    display: flex; /* Utilizamos flexbox para alinear los enlaces */
+    flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en varias líneas */
+    justify-content: center; /* Centramos el texto horizontalmente dentro del botón */
+    font-family: 'Times New Roman', serif; /* Fuente de los párrafos */
+    
+}
+
+
+
+

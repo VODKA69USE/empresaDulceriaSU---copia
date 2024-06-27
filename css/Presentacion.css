@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+    background-color: rgb(248, 238, 161);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px; /* Ajuste para compensar la superposición del menú */
+}
+
+
+header {
+    color: #FF69B4; /* rosa pastel */
+    background-color: #FFD700; /* amarillo pastel */
+    border-radius: 10px; /* bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    text-align: center; /* Alineación del texto */
+    padding: 30px; /* Espacio interior */
+    font-size: 50px; /* Tamaño de la fuente */
+    font-family: Georgia, serif; /* Fuente de los párrafos */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.menu {
+    position: fixed;
+    top: 0; /* Fijar el menú en la parte superior */
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px 0;
+    list-style-type: none;
+    z-index: 1000;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Estilos específicos para los iconos */
+img {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.comer {
+    position: center ;
+    top: 45px;
+    left: 20px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 1625px;
+
+    margin-left: 490px; /* Mueve el elemento 20px hacia la derecha */
+}
+.telefono {
+    position: center ;
+    top: 130px;
+    left: 20px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 1620px;
+
+    margin-left: 494px; /* Mueve el elemento 20px hacia la derecha */
+}
+.correo {
+    position: center ;
+    top: 165px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 1625px;
+
+    margin-left: 450px; /* Mueve el elemento 20px hacia la derecha */
+}
+.catalogo {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:910px; /* Mueve el elemento 20px hacia la derecha */
+}
+.info {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 142px;
+
+    margin-left:720px; /* Mueve el elemento 20px hacia la derecha */
+}
+
+.compra {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 142px;
+
+    margin-left:510px; /* Mueve el elemento 20px hacia la derecha */
+}
+.horario {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:390px; /* Mueve el elemento 20px hacia la derecha */
+}
+.prese {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:230px; /* Mueve el elemento 20px hacia la derecha */
+}
+.visio {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:110px; /* Mueve el elemento 20px hacia la derecha */
+}
+.misio {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 138px;
+
+    margin-left:-15px; /* Mueve el elemento 20px hacia la derecha */
+}
+.usuario {
+    position: center ;
+    top: -105px;
+    left: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 140px;
+
+    margin-left:1050px; /* Mueve el elemento 20px hacia la derecha */
+}
+a {
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    margin: 10px; /* Espaciado externo de los enlaces */
+    background-color: #007bff; /* Color de fondo de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    border-radius: 5px; /* Borde redondeado de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    transition: transform 0.3s ease; /* Transición suave del efecto de escala */
+    display: flex; /* Utilizamos flexbox para alinear los enlaces */
+    flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en varias líneas */
+    justify-content: center; /* Centramos el texto horizontalmente dentro del botón */
+    font-family: 'Times New Roman', serif; /* Fuente de los párrafos */
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+.tia {
+    text-align: center;
+    margin-top: 20px; /* Ajuste del margen superior */
+    display: block; /* Convertir la imagen en un elemento de bloque para poder centrarla */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+    height: 200px;
+    max-width: 10%; /* Establecer el ancho máximo al 100% del contenedor */
+    margin-top: 10px;
+    margin-left: 580px;
+    height: auto; /
+}

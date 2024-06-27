@@ -1,0 +1,46 @@
+/* disenousuario.css */
+
+body {
+    background-color: rgb(248, 238, 161);
+    margin: 20px;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.boton-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-regresar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: #47eff2;
+    text-align: center;
+}
+
+
+/* Estilos para la información recibida */
+.info{
+    margin-bottom: 20px;
+}
+
+.info label {
+    font-weight: bold;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
